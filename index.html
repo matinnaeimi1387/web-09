@@ -1,84 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap.rtl.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary border">
-        <div class="container-fluid">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="index.html"
-                  target="_blank">contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pages/papers.html" target="_blank"
-                  >projects</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pages/contact.html" target="_blank"
-                  >resome</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pages/contact.html" target="_blank"
-                  >home</a
-                >
-              </li>
-              <!-- <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  menu
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">hot-chocolate</a></li>
-                  <li><a class="dropdown-item" href="#">shake</a></li>
-                  <li><a class="dropdown-item" href="#">tiramisu</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li> -->
-            </ul>
-            <a href="#">
-              start bootstram
-            </a>
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Start Bootstrap</div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <section class="hero">
+        <div class="hero-content">
+          <span class="tag">DESIGN · DEVELOPMENT · MARKETING</span>
+          <h2>I can help your business to</h2>
+          <h1><span class="gradient-text">Get online and grow fast</span></h1>
+          <div class="buttons">
+            <button class="btn primary">Resume</button>
+            <button class="btn secondary">Projects</button>
+          </div>
+          <div class="profile">
+            <img src="imges/-2147483648_-216450.jpg" alt="Profile">
           </div>
         </div>
-      </nav>
-    </header>
-    <main>
-      <div>
-        <p>
-          <span></span>
-        </p>
-      </div>
-    </main>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
-  </body>
+      </section>
+      
+      <section class="about">
+        <h2>About <span>Me</span></h2>
+        <p>My name is Start Bootstrap and I help brands grow.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fugit dolorum itaque qui unde quisquam consequuntur autem. Eveniet quasi nobis aliquid cumque officiis sed rem iure ipsam praesentium ratione atque dolorem?</p>
+        <div class="socials">
+          <a href="#"><img src="twitter.png" alt="Twitter"></a>
+          <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
+          <a href="#"><img src="github.png" alt="GitHub"></a>
+        </div>
+      </section>
+      
+      <footer class="footer">
+        <p>Copyright © Your Website 2023</p>
+        <div class="footer-links">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Contact</a>
+        </div>
+      </footer>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/script.js"></script>
+</body>
 </html>
